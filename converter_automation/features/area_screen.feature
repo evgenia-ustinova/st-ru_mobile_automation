@@ -1,10 +1,11 @@
 Feature: User is able to convert area units
 
+  @wip
   Scenario: User is able to dismiss help
-    Given I land on help page
+    Given I land on help popup
     When I click on Got it button
     Then I land on Area screen
-@wip
+
   Scenario: User is able to swap values
     Given I click on Got it button
     And I see "Sq Kilometre" in From header
