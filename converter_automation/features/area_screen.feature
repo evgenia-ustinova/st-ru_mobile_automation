@@ -1,7 +1,9 @@
+@area
 Feature: User is able to convert area units
 
   Background:
     Given I click on Got it button
+    And I land on Area screen
 
 #  Scenario: User is able to dismiss help
 #    Given I land on help popup
@@ -32,7 +34,7 @@ Feature: User is able to convert area units
     And I press "13" on soft keyboard
     Then I get "13000000" in To field
 
-
+@wip
   Scenario:
     When I select "Hectare" from left column
     Then I see "Hectare" in From header
